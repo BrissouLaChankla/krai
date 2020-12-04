@@ -18,7 +18,7 @@
                         <div class="date">0{{ $i }}<span class="red">/03</span></div>
                         <img src='{{ asset('img/adventure/' . $i . '.png') }}' class="img-fluid" alt="">
                         <div class="px-2 text-center">
-                            <h3>{{ $adventuretitles[$i - 1] }}</h3>
+                            <h3 class="title-h3">{{ $adventuretitles[$i - 1] }}</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
                                 elementum
                                 tristique.</p>

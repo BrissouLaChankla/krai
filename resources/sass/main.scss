@@ -145,6 +145,14 @@ nav {
 
     .gallery-bloc {
         background:#242275;
+
+        .title {
+            background:#2e348a;
+        }
+
+        p {
+            font-size:.8em;
+        }
     }
 }
 
@@ -153,12 +161,24 @@ nav {
 .carousel {
     position: absolute;
     left: 60px;
-    bottom:0;
+    bottom:3px;
     z-index: 5;
     height: 90%;
-    width: 520px;
+    width: 549px;
+    .carousel-indicators {
+        bottom: 45px;
+        left: 0;
+        right: auto;
+        margin-left: 10px;
+
+        li {
+            width: 15px;
+            height: 15px;
+        }
+    }
     .carousel-inner {   
         height: 100%;
+        
         .carousel-item {
             img {
 
@@ -167,6 +187,19 @@ nav {
     }
 }
 
+
+.left-nav {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background:$secondary;
+    box-shadow: inset 10px 0em #ce3434;
+    left:-100px;
+    cursor: pointer;
+    i {
+        font-size:2.5em;
+    }
+}
 
 
 
@@ -193,9 +226,21 @@ footer {
         cursor: pointer;
         font-size:.8em;
     }
-    
+    .social {
+        i {
+            cursor: pointer;
+            transition: all .3s ease;
+            &:hover {
+                color:$secondary;
+            }
+        }
+    }
 }
 
+
+.ml-6 {
+    margin-left:4em!important;;
+}
 
 
 

@@ -3,11 +3,11 @@
         <div>
             <span>© Brice Eliasse {{ now()->year }}</span>
         </div>
-        <div class="text-white">
-            <i class="mx-2 fab fa-dribbble"></i>
-            <i class="mx-2 fab fa-twitter"></i>
-            <i class="mx-2 fab fa-facebook-f"></i>
-            <i class="mx-2 fas fa-paper-plane"></i>
+        <div class="text-white social">
+            <i class="p-2 fab fa-dribbble"></i>
+            <i class="p-2 fab fa-twitter"></i>
+            <i class="p-2 fab fa-facebook-f"></i>
+            <i class="p-2 fas fa-paper-plane"></i>
         </div>
         <div class="d-flex ">
             <input class="border-bottom text-white" placeholder="Abonnez-vous à moi" type="email" name="" id="">
