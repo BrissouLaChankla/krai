@@ -4,6 +4,10 @@ h3 {
     font-family: 'Staatliches', cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     z-index: 10;
     width: 100%;

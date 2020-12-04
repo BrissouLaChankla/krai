@@ -7,7 +7,7 @@
         <p class="wow fadeInLeft" data-wow-delay=".5s">Join us for a week of hiking, team-bonding <br>and digital detoxing. This month, one-time only in
             <br>Kamchatka.
         </p>
-        <div class="btn btn-light position-relative pl-3 pr-5 wow fadeInUp" data-wow-delay="1s">Adventure
+        <div class="btn btn-light position-relative pl-3 pr-5 wow fadeInUp" data-wow-delay="1s" href="#adventure">Adventure
             <i class="fas fa-caret-right  "></i>
         </div>
     </div>
