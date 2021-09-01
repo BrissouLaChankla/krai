@@ -16,7 +16,7 @@
                 <div class="col-md-4 p-4 wow fadeInUp" data-wow-delay=".{{ $i * 3 }}s">
                     <div class="d-flex flex-column p-3 bg-secondary shadow-cust hvr-grow position-relative">
                         <div class="date">0{{ $i }}<span class="red">/03</span></div>
-                        <img src='{{ asset('img/adventure/' . $i . '.png') }}' class="img-fluid" alt="">
+                        <img src='{{ asset('img/adventure/' . $i . '.webp') }}' class="img-fluid" alt="">
                         <div class="px-2 text-center">
                             <h3 class="title-h3">{{ $adventuretitles[$i - 1] }}</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
